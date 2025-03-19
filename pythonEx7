@@ -1,0 +1,22 @@
+def studList():
+    studentNames = ["Lisa", "Liam", "Leo", "Larry", "Linda"]
+  
+    for name in studentNames:
+        print(f"{name} Evans")
+   
+    return studentNames
+
+def addToList(studentNames):
+    newName = input("Enter a new name to add to the list: ")
+    
+    studentNames.append(newName)
+    
+    print("\nUpdated list of students:")
+    for name in studentNames:
+        print(f"{name} Evans")
+
+
+print("Initial list of students:")
+studentList = studList()  
+print("Adding a new name to the list:")
+addToList(studentList)  
