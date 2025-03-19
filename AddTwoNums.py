@@ -12,8 +12,6 @@ def add(a,b):
 a=input("First Number: ")
 b=input("Second Number: ")
 
-
 #calling function
 res=add(a,b)
 print("The Answer is:")
-print(res)
